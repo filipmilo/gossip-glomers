@@ -1,6 +1,7 @@
+/// NOTE:
 /// ```bash
 /// $ cargo build
-/// $ maelstrom test -w echo --bin ./target/debug/echo --node-count 1 --time-limit 10 --log-stderr
+/// $ ./maelstrom test -w echo --bin ./target/debug/echo --node-count 1 --time-limit 10 --log-stderr
 /// ````
 use async_trait::async_trait;
 use maelstrom::protocol::Message;
